@@ -1,4 +1,4 @@
-🚀 Real-World Software Pipeline Simulation using Python Abstraction
+# 🚀 Real-World Software Pipeline Simulation using Python Abstraction
 This project simulates a real-world software development pipeline, showcasing how software, data engineering, and ML teams collaborate through structured, versioned, and abstracted codebases.
 
 The primary goal is to demonstrate:
@@ -24,7 +24,7 @@ The primary goal is to demonstrate:
 |  **V3** | Senior Dev | Adds new abstract methods for extended features   |
 |  **V4** | Junior Dev | Implements V3 methods to support new features     |
 
-🧰 Technologies & Concepts Used
+# 🧰 Technologies & Concepts Used
 
 🔹 Python OOP with Abstract Base Classes (abc)
 
@@ -39,37 +39,39 @@ The primary goal is to demonstrate:
 ✨ Designed to be intuitive: the user can run the full pipeline without needing to read the internals.
 
 
-📦 How to Run This Project
+# 📦 How to Run This Project
 
-# Step 1: Clone the repository
+### Step 1: Clone the repository
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
-# Step 2: Install the dependencies
+### Step 2: Install the dependencies
 pip install -r requirements.txt
 
-# Step 3: Run the pipeline from the command line
+### Step 3: Run the pipeline from the command line
 python main_version2.py --image_path="sample.jpg" --model_path="yolov8n.pt"
 
-🧠 What You’ll Learn
-🧩 The power of abstraction in building large-scale systems
+# 🧠 What You’ll Learn
 
-🏗️ How real-world companies structure codebases for collaboration
+* 🧩 The power of abstraction in building large-scale systems
 
-🔄 Making code versionable, maintainable, and integration-ready
+* 🏗️ How real-world companies structure codebases for collaboration
 
-🛠️ Real-world practice with GitHub workflows and CLI tools
+* 🔄 Making code versionable, maintainable, and integration-ready
 
-📍 Ideal For
-Aspiring developers learning software engineering best practices
+* 🛠️ Real-world practice with GitHub workflows and CLI tools
 
-Students understanding modular and versioned development
+# 📍 Ideal For
 
-Data and ML engineers looking to integrate YOLOv8 into pipelines
+* Aspiring developers learning software engineering best practices
 
-📁 Folder Structure Example
+* Students understanding modular and versioned development
 
-your-repo-name/
+* Data and ML engineers looking to integrate YOLOv8 into pipelines
+
+# 📁 Folder Structure Example
+
+cicd/
 ├── Version1.py         # Abstract base class (skeleton)
 ├── Version2.py         # Logic implementation (inherits V1)
 ├── main_version2.py    # Entry point - CLI-based pipeline runner
