@@ -72,6 +72,7 @@ python main_version2.py --image_path="sample.jpg" --model_path="yolov8n.pt"
 # 📁 Folder Structure Example
 
 cicd/
+
     ├── Version1.py         # Abstract base class (skeleton)
    
     ├── Version2.py         # Logic implementation (inherits V1)
@@ -82,5 +83,5 @@ cicd/
     
     ├── requirements.txt    # Python dependencies
     
-    └── README.md           # Project overview
+    ├── README.md           # Project overview
 
