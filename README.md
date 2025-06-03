@@ -72,10 +72,15 @@ python main_version2.py --image_path="sample.jpg" --model_path="yolov8n.pt"
 # 📁 Folder Structure Example
 
 cicd/
-├── Version1.py         # Abstract base class (skeleton)
-├── Version2.py         # Logic implementation (inherits V1)
-├── main_version2.py    # Entry point - CLI-based pipeline runner
-├── sample.jpg          # Sample input image
-├── requirements.txt    # Python dependencies
-└── README.md           # Project overview
+    ├── Version1.py         # Abstract base class (skeleton)
+   
+    ├── Version2.py         # Logic implementation (inherits V1)
+    
+    ├── main_version2.py    # Entry point - CLI-based pipeline runner
+    
+    ├── sample.jpg          # Sample input image
+    
+    ├── requirements.txt    # Python dependencies
+    
+    └── README.md           # Project overview
 
