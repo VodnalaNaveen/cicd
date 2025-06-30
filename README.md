@@ -43,6 +43,7 @@ The primary goal is to demonstrate:
 
 ### Step 1: Clone the repository
 git clone https://github.com/VodnalaNaveen/cicd.git
+
 cd your-repo-name
 
 ### Step 2: Install the dependencies
